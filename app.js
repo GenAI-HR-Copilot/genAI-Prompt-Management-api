@@ -27,7 +27,7 @@ const initApp = async () => {
       app.use("/api", apiRoute);
       app.use(errorHandler);
   
-      const port = 4301;
+      const port = 9090;
       app.listen(port, () => {
         console.log(`Server running on port ${port}`);
       });
