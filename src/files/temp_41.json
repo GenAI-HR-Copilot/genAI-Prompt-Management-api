@@ -1,0 +1,32 @@
+{
+  "name": "Sample test-minio-40",
+  "description": "This is a detailed description of the sample prompt.",
+  "type": "text",
+  "status": "draft",
+  "content": {
+    "context_setting": "This is the context setting for the prompt.",
+    "task_description": "This is a description of the task to be performed.",
+    "input_variables": {
+      "exampleVariable1": "value1",
+      "exampleVariable2": "value2"
+    },
+    "output_instructions": "Instructions for the output of the prompt.",
+    "constraints": "Any constraints or limitations for the prompt."
+  },
+  "metadata": {
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "collections": [
+      "collection1"
+    ]
+  },
+  "domain": "HR",
+  "subdomain": "Recruitment",
+  "business_process": "Related business process or workflow.",
+  "target_audience": "Human Resources professionals",
+  "complexity_level": 3,
+  "created_by": 1,
+  "updated_by": 1
+}
