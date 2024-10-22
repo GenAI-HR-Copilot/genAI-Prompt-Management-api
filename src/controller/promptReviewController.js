@@ -1,6 +1,5 @@
-import PromptReviewService from '../service/PromptReviewService.js';
+import PromptReviewService from '../service/promptReviewService.js';
 import ResponseHandler from "../utils/responseHandler.js";
-
 
 class PromptReviewController {
   // Create a new prompt review
