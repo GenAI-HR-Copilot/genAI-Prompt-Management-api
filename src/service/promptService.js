@@ -69,7 +69,7 @@ const filePath = path.join(filesDir, `temp_${prompt.id}.json`);
         );
         console.log("Upload response:", response);
  // Optional: Delete the temporary file after successful upload
-//  fs.unlinkSync(filePath);
+ fs.unlinkSync(filePath);
 //  console.log(`Temporary file deleted: ${filePath}`);
         // Check if response has an etag, which indicates success
         if (!response.etag) {

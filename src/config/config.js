@@ -7,11 +7,11 @@ export const config = {
     dialect: "postgres",
   },
   cloudeConfig: {
-    endPoint: "127.0.0.1",
+    endPoint: "4.240.60.247",
     port: 9000,
     useSSL: false,
-    ACCESS_KEY: "H88MdxzRt88dP5vtX0WP",
-    SECRET_KEY: "YkEL4n0JJMsLN5gAFTB8wAX0y9P2wiXXyNSCjsbZ",
+    ACCESS_KEY: "XeZMcLbUa4ybnAqTNU9p",
+    SECRET_KEY: "et17b5XFU32ux9pRlAti8CD1b8zQnVLWUDDaX1lb",
     BUCKET_NAME: "prompt-management",
   },
 };
