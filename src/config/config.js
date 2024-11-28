@@ -1,9 +1,11 @@
 export const config = {
   development: {
     username: "postgres",
-    password: "postgres",
+    password: "PostgreS@987$",
+    host: "4.240.60.247",    
     database: "prompt_management",
-    host: "4.240.60.247",
+    // password: "soumya",
+    // host: "127.0.0.1",
     dialect: "postgres",
   },
   cloudeConfig: {
